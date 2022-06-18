@@ -1,11 +1,13 @@
-import React from "react";
+import React from 'react'
+import { UncontrolledInput } from './UncontrolledInput'
 
-const App: React.VFC<{}> = ({}) => {
+const App: React.FC<{}> = ({}) => {
   return (
     <div>
-      <h2>Hello, React</h2>
+      <h2>Uncontrolled Form</h2>
+      <UncontrolledInput />
     </div>
-  );
-};
+  )
+}
 
-export default App;
+export default App
